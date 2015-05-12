@@ -1,4 +1,10 @@
 <?php
+/**
+ * On Credits
+ * 
+ * -Use nohup php tests.php to run the script in the background and use while($url < $records_fetched_from_db){//do something}
+ * -Use zend server to run many background tasks
+ */
 $url = 'http://www.example.com/api/json_endpoint/method1';
 
 /**
