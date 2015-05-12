@@ -49,13 +49,13 @@ function imageCheck($url){
     if(curl_exec($ch)!==FALSE)
     {
         echo 'true';
-		 mail('youremail@example.com.com', 'the subject', 'image does not exist', null,
+		 mail('youremail@example.com.com', 'the subject', 'image does  exists', null,
    '-webmaster@example.com');
     }
     else
     {
         echo 'false';
-		 mail('youremail@example.com.com', 'the subject', 'image exists', null,
+		 mail('youremail@example.com.com', 'the subject', 'image does not exist', null,
    '-webmaster@example.com');
     }
 }
